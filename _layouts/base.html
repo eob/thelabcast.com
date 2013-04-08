@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ page.title }}</title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="description" content="{{ page.meta }}" />
+  <meta name="author" content="Ted Benson" />
+  
+  <link href="{{ site.baseurl }}/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+  <link href="{{ site.baseurl }}/css/bootstrap-responsive.min.css" type="text/css" rel="stylesheet" />
+  <link href="{{ site.baseurl }}/css/thelabcast.css" type="text/css" rel="stylesheet" media="screen, projection" />
+
+  <script src="{{ site.baseurl }}/javascript/jquery.min.js"></script>
+
+  <link rel="alternate" type="application/rss+xml" href="http://feeds.thelabcast.com/podcast.rss" />
+<!--  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+  <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-619489-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  </script>
+-->
+</head>
+<body>
+  {{content}}
+  <script src="{{ site.baseurl }}/javascript/bootstrap.min.js"></script>
+</body>
+</html>
