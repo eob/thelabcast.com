@@ -5,6 +5,7 @@
 html {
   margin-top: 0;
   padding-top: 0;
+  background-color: #fdfdfd;
 }
 
 body {
@@ -53,3 +54,69 @@ section#subscribe {
   text-align: center;
 }
 
+
+ol.episodes {
+  list-style: none;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 20px;
+  width: 100%;
+}
+
+ol.episodes li.episode {
+  padding: 0;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ol.episodes li.episode a {
+  background-color: #fff;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #666;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
+  transition: all 0.2s ease-in-out;
+  display: block;
+  text-decoration: none;
+  overflow: auto;
+  color: #333;
+}
+
+ol.episodes li.episode a:hover {
+  border: 1px solid #a10504;
+  color: #333;
+}
+
+ol.episodes li.episode a:hover h3 {
+  transition: all 0.2s ease-in-out;
+  color: #a10504;
+}
+
+ol.episodes li.episode div.image {
+  display: block;
+  float: left;
+  max-width: 200px;
+}
+
+ol.episodes li.episode div.description {
+  display: block;
+  float: left;
+  margin-left: 20px;
+  max-width: 500px;
+}
+
+ol.episodes li.episode h3 {
+  transition: all 0.2s ease-in-out;
+  font-size: 24px;
+  color: #333;
+}
+
+ol.episodes li.episode h5 {
+  font-size: 16px;
+}
